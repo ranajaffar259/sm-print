@@ -54,7 +54,7 @@
                             <i class="fa-solid fa-user"></i>
                         </a>
                         <a href="cart.html" title="Bucket">
-                            <i class="fa-solid fa-bucket"></i>
+                            <i class="fas fa-shopping-basket"></i>
                         </a>
                     </div>
                 </div>
@@ -153,123 +153,76 @@
 
     <main id="main-content">
         <div class="container">
-            <div class="checkout-page">
-                <h1>Checkout</h1>
-
-                <p>Already have an account? click <a href="login.html">here</a> to login</p>
-
-                <form action="https://sm-print.co.uk/payments/pay" method="post" id="payment-form">
-                    <div class="checkout-row">
-                        <div class="left">
-                            <div class="checkout-form-layout">
-                                <h4>Create your account</h4>
-                                <div class="row">
-                                    <div class="form-group">
-                                        <label for="email">Email:</label>
-                                        <input type="text" id="email" class="input" name="email">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="mobile">Mobile:</label>
-                                        <input type="text" id="mobile" class="input" name="mobile">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="password">Password:</label>
-                                        <input type="password" id="password" class="input" name="password">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="password-confirm">Confirm Password:</label>
-                                        <input id="password-confirm" type="password" class="input"
-                                            name="password_confirmation" required="" autocomplete="new-password">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="checkout-form-layout">
-                                <h4>Your delivery details</h4>
-                                <div class="row">
-                                    <div class="form-group">
-                                        <label for="firstName">First Name:</label>
-                                        <input type="text" class="input" name="firstName" id="firstName">
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="lastName">Last Name:</label>
-                                        <input type="text" class="input" name="lastName" id="lastName">
-                                    </div>
-                                    <div class="from-group">
-                                        <label for="client_add1">House Number and Street:</label>
-                                        <input type="text" class="input" name="address1" id="client_add1">
-                                    </div>
-                                    <div class="from-group">
-                                        <label for="client_add2">City:</label>
-                                        <input type="text" class="input" name="address2" id="client_add2">
-                                    </div>
-                                    <div class="from-group">
-                                        <label for="client_postcode">Postcode:</label>
-                                        <input type="text" class="input" name="postcode" id="client_postcode">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="checkout-form-layout">
-                                <h4>Your order details</h4>
-                                <div class="cart-list">
-                                    <div class="cart-item">
-                                        <div class="left">
-                                            <div class="product-image">
-                                                <img src="https://sm-print.co.uk/img/products_show/flyers.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="right">
-                                            <h2>Flyers and Leaflets - £13.09</h2>
-                                            <ul>
-                                                <li>Number Of Sides: 2</li>
-                                                <li> Paper Type: 170gsm Silk Paper</li>
-                                                <li>Paper Size: A6 Leaflet</li>
-                                                <li> Lamination: Matt Both Sides</li>
-                                                <li> FoldType: N/A</li>
-                                                <li> Corners: NULL</li>
-                                                <li> Quantity: 3</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="cart-item">
-                                        <div class="left">
-                                            <div class="product-image">
-                                                <img src="https://sm-print.co.uk/img/products_show/flyers.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="right">
-                                            <h2>Flyers and Leaflets - £13.09</h2>
-                                            <ul>
-                                                <li>Number Of Sides: 2</li>
-                                                <li> Paper Type: 170gsm Silk Paper</li>
-                                                <li>Paper Size: A6 Leaflet</li>
-                                                <li> Lamination: Matt Both Sides</li>
-                                                <li> FoldType: N/A</li>
-                                                <li> Corners: NULL</li>
-                                                <li> Quantity: 3</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="right">
-                            <div class="total-box">
-                                <h3>Make a payment</h3>
-                                <p class="total-price">Total: £ 13.09</p>
-                                <p><b>Pay Via:</b></p>
-                                <button class="btn btn-paypal mb-2">
-                                    <span style="color: #0A3487;">Pay</span>
-                                    <span style="color: #189ACC;">Pal</span>
-                                </button>
-                                <button class="btn btn-dark checkout-btn">Debit or Credit Card</button>
-                            </div>
+            <div class="product-page">
+                <div class="row">
+                    <div class="left">
+                        <div class="product-image">
+                            <img src="https://sm-print.co.uk/img/products_show/business_card.png" alt="">
                         </div>
                     </div>
-                </form>
+                    <div class="right">
+                        <h1>Business Cards</h1>
 
+                        <h3>Price: £13</h3>
+
+                        <div class="layout-selectors">
+
+                            <div class="item">
+                                <label for="">Number of Sides</label>
+                                <select name="" id="" class="input">
+                                    <option value="">test</option>
+                                    <option value="">test</option>
+                                </select>
+                            </div>
+                            <div class="item">
+                                <label for="">Number of Sides</label>
+                                <select name="" id="" class="input">
+                                    <option value="">test</option>
+                                    <option value="">test</option>
+                                </select>
+                            </div>
+                            <div class="item">
+                                <label for="">Number of Sides</label>
+                                <select name="" id="" class="input">
+                                    <option value="">test</option>
+                                    <option value="">test</option>
+                                </select>
+                            </div>
+                            <div class="item">
+                                <label for="">Number of Sides</label>
+                                <select name="" id="" class="input">
+                                    <option value="">test</option>
+                                    <option value="">test</option>
+                                </select>
+                            </div>
+                            <div class="item">
+                                <label for="">Number of Sides</label>
+                                <select name="" id="" class="input">
+                                    <option value="">test</option>
+                                    <option value="">test</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <button class="btn btn-dark mb-3">Calculate Cost</button>
+                        <div class="after-calc">
+                            <button class="btn btn-dark"><i class="fas fa-repeat"></i> Re-Calculate Cost</button>
+                            <button class="btn btn-second"><i class="fas fa-shopping-basket"></i> Add to Basket</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <p class="product-description">Whether you’re promoting an event, a business opening or even trying to
+                    help find a lost pet, SM Print’s flyer printing service has got you more than covered. We’ll make
+                    sure your flyer looks as great in person as they do on your screen. SM Print makes printing
+                    pain-free, with affordable prices and a 100% satisfaction guarantee, we guarantee to print materials
+                    that you’ll love. We’ve got premium quality paper, gorgeous finishes, and we’ll deliver straight to
+                    your door. Flyers are one of the oldest, cheapest and most effective forms of direct marketing you
+                    could choose, so make sure you promote you business or event in style with SM Print. Need a design?
+                    Then you’re in the right place. We have experienced graphic designers who are ready and willing to
+                    help. For more information or a bespoke quote, complete the enquiry form below.</p>
             </div>
         </div>
     </main>
